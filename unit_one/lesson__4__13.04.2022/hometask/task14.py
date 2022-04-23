@@ -17,6 +17,7 @@
 
 from random import randint
 
+
 first_array = [randint(1, 10) for i in range(10)]
 print("Сначала дан вот такой массив:")
 print(first_array)
