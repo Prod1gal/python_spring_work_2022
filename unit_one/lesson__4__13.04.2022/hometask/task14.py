@@ -45,35 +45,3 @@ else:
         print("Для числа", value, "индексы двух ближайших чисел", result_index[0],"и",result_index[1])
 
 
-
-
-#
-# first_array.sort()
-#
-# for i in range(0,len(first_array)-1):
-#     if first_array[i] == first_array[i+1]:
-#         # не получается обработать дублирование
-#         print(str(first_array[i]) + '- это число дублируется')
-#
-# # def org_app(first_array, refArray):
-# #     out1 = np.empty(first_array.size, dtype=int)
-# #     for i, value in enumerate(first_array):
-# #         # find_nearest from posted question
-# #         index = find_nearest(refArray, value)
-# #         out1[i] = index
-# #     return out1
-#
-#
-# i = int(input("Введите значение элемента, чтобы найти его ближайшие индексы:"))
-#
-# def find_closest(first_array, i):
-#     idx = first_array.searchsorted(i)
-#     idx = np.clip(idx, 1, len(first_array)-1)
-#     left = first_array[idx-1]
-#     right = first_array[idx]
-#     idx -= i - left < right - i
-#     return print(idx)
-# find_closest(first_array, i)
-
-
-
